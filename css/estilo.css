@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Victor+Mono:wght@100;200&display=swap');
+
+#meu_menu{/* ABRINDO ID DO MENU */
+text-align: right;
+/* padding margem interna */
+padding-right: 60px;
+/* COLOCANDO BORDA INFERIOR */
+border-bottom: solid;
+/* tamanho da fonte do menu */
+font-size: 18px;
+font-family: 'Victor Mono',sans-serif;
+}/* FECHANDO ID DO MENU */
+
+/* CHAMANDO A CLASSE MAE */
+#meu_menu a{
+    text-decoration: none;
+    color: #0ec326;
+}
+/* COLOCANDO EFEITO DE SOBRE NO MENU */
+#meu_menu a:hover{
+    color:#021a03;
+    background-color: #61d569;
+    transition: 0.3s;
+    opacity: 0.6;
+}
+.titulo{
+    text-align: center;
+    background-color: #cbffbd;
+    color: #114c15;
+    border-style:double;
+    border-color: #00d60e;
+    border-radius: 9px;
+    border-width: 4px;
+}
+
+#fundo{
+    display: flex;
+    background-color: #1c5b2b;
+    justify-content: center;
+}
+img{
+    width: 40%;
+}
+
+/* TRABALHANDO COM A DIV PRINCIPAL */
+
+.master{
+    display:flex
+}
+
+.col_esquerda{
+    margin-right: 20px;
+    text-align: justify;
+}
+.col_direita{
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.titulo_col{
+    text-align: center;
+    background-color: #92f499;
+}
